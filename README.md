@@ -1,3 +1,7 @@
 # Creating_AWS_Resources_With_Function 
 
 In this mini project, I implemented AWS resource creation using Bash functions and arrays to automate infrastructure provisioning. The goal was to build two main functions — one for provisioning EC2 instances and another for setting up multiple S3 buckets — making the process efficient and reusable. The EC2 provisioning function used AWS CLI commands to spin up instances programmatically, following AWS documentation to ensure correct parameters like AMI ID, instance type, and key pair. The S3 setup function leveraged arrays to store department names, looping through them to create uniquely named buckets with timestamps for each department. Input validation, AWS CLI checks, and AWS profile verification were added to make the script more robust. During execution, EC2 creation failed due to a vCPU limit error, highlighting the importance of understanding AWS quotas and error handling. This project demonstrated how functions and arrays can simplify repetitive tasks, promote cleaner code, and enable consistent, automated AWS resource management.
+![creating-ec2](./New-pic-20/2.creating-ec2.png).
+
+![s3](./New-pic-20/4.s3.png).
+
